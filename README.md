@@ -1,36 +1,34 @@
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
-## Getting Started
+# My Web Development & Design Portfolio
 
-First, run the development server:
+Welcome to my portfolio repository! Here, I showcase a selection of my work in web development and web design.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## About Me
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+I'm a passionate web developer and web designer with a keen eye for aesthetics and functionality. My goal is to create user-friendly and visually appealing websites that perform optimally on both desktop and mobile devices.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Projects
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+In this repository, you'll find the following projects:
 
-## Learn More
+- **Project 1:**
 
-To learn more about Next.js, take a look at the following resources:
+For each project, you'll find a dedicated folder containing:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- Screenshots: Visual representations of the project
+- Code: The project's source code
+- Demo: A link to the live demo (if available)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Technologies
 
-## Deploy on Vercel
+I have experience with the following technologies:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- **Frontend:** HTML, CSS, JavaScript, React, NextJS
+- **Design:** Adobe XDtch
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## Important Note
+
+This portfolio is solely for the purpose of showcasing my work. I am currently **not** seeking new job opportunities or freelance projects.
+
+Thank you for visiting!
