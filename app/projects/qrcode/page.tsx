@@ -9,7 +9,7 @@ const outfit = Outfit({
 export default function QRCode() {
   return (
     <main className="bg-[#D5E1EF] h-dvh grid place-content-center">
-      <div className="bg-white p-4 pb-10 rounded-[20px] flex flex-col gap-6 max-w-xs">
+      <div className="bg-white p-4 pb-10 rounded-[20px] flex flex-col gap-6 max-w-xs shadow-[0_0_25px_0_rgba(0,0,0,0.047)]">
         <Image
           className="rounded-[10px]"
           src="/challenges/qrcode/image-qr-code.png"
