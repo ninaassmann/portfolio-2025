@@ -16,7 +16,7 @@ export default function BlogPreviewCard() {
             <Image
               className="rounded-[10px]"
               src="/challenges/blog-review-card/illustration-article.svg"
-              alt="QR Code"
+              alt="HTML & CSS Image"
               fill={true}
             />
           </div>
@@ -36,7 +36,7 @@ export default function BlogPreviewCard() {
               structure, content, and presentation.
             </p>
           </div>
-          <div className={`flex items-center gap-3 ${figtree.className}`}>
+          <div className={`flex items-center gap-3 ${font.className}`}>
             <Image
               src="/challenges/blog-review-card/image-avatar.webp"
               alt="QR Code"
