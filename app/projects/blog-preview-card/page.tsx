@@ -11,7 +11,7 @@ export default function BlogPreviewCard() {
   return (
     <>
       <section className="bg-[#F4D04E] py-32 px-6 grid place-content-center">
-        <div className="bg-white p-6 rounded-[20px] flex flex-col gap-6 max-w-96 shadow-[8px_8px_0_0_rgba(0,0,0,1)] group cursor-pointer duration-200 ease-in-out">
+        <div className="bg-white border-1 border-gray-950 p-6 rounded-[20px] flex flex-col gap-6 max-w-96 shadow-[8px_8px_0_0_rgba(0,0,0,1)] group cursor-pointer duration-200 ease-in-out">
           <div className="h-[200px] w-full relative overflow-hidden">
             <Image
               className="rounded-[10px]"
@@ -31,7 +31,7 @@ export default function BlogPreviewCard() {
             <p className="text-[24px] font-extrabold text-gray-950 group-hover:text-[#F4D04E]">
               HTML & CSS foundations
             </p>
-            <p className="text-[15px] font-medium text-gray-500">
+            <p className="text-[16px] font-medium text-gray-500">
               These languages are the backbone of every website, defining
               structure, content, and presentation.
             </p>
