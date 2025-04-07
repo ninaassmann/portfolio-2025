@@ -1,9 +1,9 @@
 import Image from "next/image";
 
-import { Figtree } from "next/font/google";
+import { Inter } from "next/font/google";
 import Link from "next/link";
 
-const font = Figtree({
+const font = Inter({
   subsets: ["latin"],
 });
 
@@ -36,7 +36,7 @@ export default function BlogPreviewCard() {
               structure, content, and presentation.
             </p>
           </div>
-          <div className={`flex items-center gap-3 ${figtree.className}`}>
+          <div className={`flex items-center gap-3 ${font.className}`}>
             <Image
               src="/challenges/blog-review-card/image-avatar.webp"
               alt="QR Code"

@@ -3,7 +3,7 @@ import Image from "next/image";
 import { Outfit } from "next/font/google";
 import Link from "next/link";
 
-const outfit = Outfit({
+const font = Outfit({
   subsets: ["latin"],
 });
 
@@ -21,11 +21,11 @@ export default function QRCode() {
           />
           <div className="flex flex-col gap-4 px-4">
             <p
-              className={`text-[22px] text-center font-bold leading-[120%] ${outfit.className} text-slate-900`}>
+              className={`text-[22px] text-center font-bold leading-[120%] ${font.className} text-slate-900`}>
               Improve your front-end skills by building projects
             </p>
             <p
-              className={`text-[15px] leading-[140%] tracking-[0.2px] text-center ${outfit.className} text-slate-500`}>
+              className={`text-[15px] leading-[140%] tracking-[0.2px] text-center ${font.className} text-slate-500`}>
               Scan the QR code to visit Frontend Mentor and take your coding
               skills to the next level
             </p>
