@@ -11,17 +11,20 @@ const routes: Route[] = [
   {
     link: "/projects",
     title: "Projects",
-    subMenu: [{ title: "QR Code", link: "/projects/qrcode" }],
+    subMenu: [
+      { title: "QR Code", link: "/projects/qr-code" },
+      { title: "Blog Preview Card", link: "/projects/blog-preview-card" },
+    ],
   },
 ];
 
 export default function Header() {
   return (
-    <header className="border-b-1 py-4 sticky top-0 bg-white">
+    <header className="z-10 sticky top-0 bg-zinc-50">
       <div className="container flex justify-between items-center">
         Nina Aßmann
         <nav>
-          <ul className="flex gap-6">
+          <ul className="flex gap-6 bg-zinc-50">
             {routes.map((route) => (
               <NavItem
                 key={route.title}
