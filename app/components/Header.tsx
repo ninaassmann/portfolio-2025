@@ -14,6 +14,7 @@ const routes: Route[] = [
     subMenu: [
       { title: "QR Code", link: "/projects/qr-code" },
       { title: "Blog Preview Card", link: "/projects/blog-preview-card" },
+      { title: "Social Links", link: "/projects/social-links" },
     ],
   },
 ];
